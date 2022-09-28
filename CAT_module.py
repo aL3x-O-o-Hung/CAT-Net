@@ -66,7 +66,6 @@ class MultiHeadedCrossSliceAttentionModule(nn.Module):
 
 
 class PositionalEncoding(nn.Module):
-
     def __init__(self,d_model,is_pe_learnable=True,max_len=20):
         super(PositionalEncoding,self).__init__()
 

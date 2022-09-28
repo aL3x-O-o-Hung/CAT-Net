@@ -2,8 +2,6 @@ from CAT_module import *
 
 
 class ConvBlock(nn.Module):
-    """ConvBlock for UNet"""
-
     def __init__(self,input_channels,output_channels,max_pool,return_single=False):
         super(ConvBlock,self).__init__()
         self.max_pool=max_pool
@@ -31,8 +29,6 @@ class ConvBlock(nn.Module):
 
 
 class DeconvBlock(nn.Module):
-    """DeconvBlock for UNet"""
-
     def __init__(self,input_channels,output_channels,intermediate_channels=-1):
         super(DeconvBlock,self).__init__()
         input_channels=int(input_channels)
@@ -54,8 +50,6 @@ class DeconvBlock(nn.Module):
         return x
 
 class UNetDecoder(nn.Module):
-    """Decoder for UNet"""
-
     def __init__(self,num_layers,base_num):
         super(UNetDecoder,self).__init__()
         self.conv=[]
@@ -70,8 +64,6 @@ class UNetDecoder(nn.Module):
         return x
 
 class CrossSliceUNetEncoder(nn.Module):
-    """Encoder for both UNet and UNet transformer"""
-
     def __init__(self,input_channels,num_layers,base_num,num_attention_blocks=3,heads=4,pool_kernel_size=(4,4),input_size=(128,128),batch_size=20,pool_method='avgpool',is_pe_learnable=True):
         super(CrossSliceUNetEncoder,self).__init__()
         self.conv=[]
