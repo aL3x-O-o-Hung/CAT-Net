@@ -2,6 +2,8 @@
 
 The official code for paper [CAT-Net: A Cross-Slice Attention Transformer Model for Prostate Zonal Segmentation in MRI](https://arxiv.org/pdf/2203.15163.pdf)
 
+There is a followup work of this paper [CSAM: A 2.5D Cross-Slice Attention Module for Anisotropic Volumetric Medical Image Segmentation](https://github.com/aL3x-O-o-Hung/CSAM)
+
 # Credit
 If you use this code or the paper in your work, please cite our paper:
 ```bash
