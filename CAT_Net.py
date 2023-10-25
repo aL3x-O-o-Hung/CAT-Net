@@ -136,7 +136,7 @@ class CrossSliceAttentionUNet(nn.Module):
 
 class CrossSliceUNetPlusPlus(nn.Module):
     def __init__(self,input_channels,num_classes,num_layers,heads=3,num_attention_blocks=2,base_num=64,pool_kernel_size=(4,4),input_size=(128,128),batch_size=20,pool_method="maxpool",is_pe_learnable=True):
-        super().__init__()
+        super(CrossSliceUNetPlusPlus).__init__()
         self.num_layers=num_layers
         self.num_attention_blocks=num_attention_blocks
         nb_filter=[]
