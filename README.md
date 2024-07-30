@@ -4,7 +4,7 @@ The official code for our TMI paper [CAT-Net: A Cross-Slice Attention Transforme
 
 Our follow up WACV 2024 paper: [CSAM: A 2.5D Cross-Slice Attention Module for Anisotropic Volumetric Medical Image Segmentation](https://github.com/aL3x-O-o-Hung/CSAM)
 
-Our follow up MICCAI 2024 paper: Cross-Slice Attention and Evidential Critical Loss for Uncertainty-Aware Prostate Cancer Detection](https://github.com/aL3x-O-o-Hung/GLCSA_ECLoss) 
+Our follow up MICCAI 2024 paper: [Cross-Slice Attention and Evidential Critical Loss for Uncertainty-Aware Prostate Cancer Detection](https://github.com/aL3x-O-o-Hung/GLCSA_ECLoss) 
 
 # Credit
 If you use this code or the paper in your work, please cite our paper:
